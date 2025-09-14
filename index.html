@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>지니베이커리 & 글로벌 무역관 오픈식 | 웹초대장</title>
+  <meta name="description" content="지니베이커리 & 글로벌 무역관 오픈식 웹초대장 - 2025년 9월 25일(목) 오후 3시, 경기도 안산시 단원구 신길중앙로 3길 18" />
+  <meta property="og:title" content="지니베이커리 오픈식 & 글로벌 무역관 개관식" />
+  <meta property="og:description" content="가을의 문턱에서 따뜻한 만남과 교류를 함께해요. 2025.09.25 ~ 09.30 | 안산 신길중앙로 3길 18" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <style>
+    :root{
+      --brown:#8B5E3C;       /* 베이커리 따뜻한 브라운 */
+      --beige:#F6E6D9;       /* 따뜻한 배경 베이지 */
+      --gold:#D9A441;        /* 포인트 골드 */
+      --ink:#1F1F1F;         /* 본문 진한색 */
+      --blue:#1F4E79;        /* 글로벌 비전 블루 */
+      --cream:#FFF9F3;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Segoe UI', Roboto, 'Noto Sans KR', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, '맑은 고딕', sans-serif;color:var(--ink);}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.8);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #eee}
+    .container{max-width:1080px;margin:0 auto;padding:0 20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;gap:10px;align-items:center;font-weight:700}
+    .brand-mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--gold),#ffddb0)}
+    .nav a{padding:8px 12px;border-radius:10px}
+    .nav a:hover{background:#f4f4f4}
+
+    .hero{position:relative;overflow:hidden;background:linear-gradient(180deg, var(--cream), #ffffff);}
+    .hero-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:64px 20px}
+    .badge{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border:1px solid #e8e2db;border-radius:999px;background:var(--beige);font-size:12px;color:var(--brown)}
+    .title{font-size:clamp(28px,4.5vw,48px);line-height:1.15;margin:14px 0}
+    .subtitle{font-size:18px;color:#444}
+    .kicker{margin-top:12px;color:#555}
+    .cta{display:flex;gap:12px;margin-top:20px}
+    .btn{padding:12px 18px;border-radius:14px;border:1px solid transparent;font-weight:600;cursor:pointer;transition:.2s}
+    .btn-primary{background:var(--brown);color:white}
+    .btn-primary:hover{filter:brightness(0.95)}
+    .btn-ghost{background:white;border-color:#eee}
+    .btn-ghost:hover{background:#f7f7f7}
+
+    .card{border:1px solid #eee;border-radius:18px;padding:22px;background:white;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+    section{padding:56px 0}
+    h2{font-size:28px;margin:0 0 16px}
+    .lead{color:#444;line-height:1.7}
+
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+
+    .pill{display:inline-block;background:#fff3d8;border:1px solid #ffe4a3;color:#7a540f;padding:6px 10px;border-radius:999px;font-size:12px}
+
+    .info-list{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+    .info-item{display:flex;gap:12px;align-items:flex-start;padding:16px;border:1px dashed #eadfce;border-radius:14px;background:#fff}
+    .icon{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:#fff1e2;border:1px solid #ffe1c4}
+
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .split .pane{border-radius:18px;overflow:hidden;border:1px solid #eee;background:linear-gradient(180deg,#fff, #fffaf4)}
+    .pane .pane-body{padding:18px}
+    .pane h3{margin:0 0 6px}
+
+    .highlight{background:linear-gradient(180deg,#fff7e6,#fff);border:1px solid #ffe2a8;border-radius:18px;padding:18px}
+
+    .program{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .program .item{border:1px solid #eee;border-radius:14px;padding:16px;background:white}
+
+    .map-wrap{border:1px solid #eee;border-radius:18px;overflow:hidden}
+    iframe{width:100%;height:360px;border:0}
+
+    footer{background:#0f1114;color:#e9e9e9;padding:36px 0;margin-top:40px}
+    .foot-grid{display:grid;grid-template-columns:2fr 1fr;gap:20px}
+    .foot small{color:#b8b8b8}
+
+    form{display:grid;gap:12px}
+    input, select, textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:12px;font-size:14px}
+
+    @media (max-width: 900px){
+      .hero-inner{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:1fr}
+      .info-list{grid-template-columns:1fr}
+      .program{grid-template-columns:1fr}
+      .split{grid-template-columns:1fr}
+      .foot-grid{grid-template-columns:1fr}
+    }
+  </style>
+  <script>
+    function scrollToId(id){
+      document.getElementById(id)?.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+    function handleRSVP(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const org = document.getElementById('org').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const attend = document.getElementById('attend').value;
+      const count = document.getElementById('count').value;
+      const msg = document.getElementById('msg').value.trim();
+      const body = encodeURIComponent(
+        `성함: ${name}\n소속/직함: ${org}\n연락처: ${phone}\n참석 여부: ${attend}\n동반 인원: ${count}\n메시지: ${msg}`
+      );
+      const subject = encodeURIComponent('[RSVP] 지니베이커리 오픈식 참석 회신');
+      // TODO: 아래 이메일 주소를 실제 접수용 주소로 변경하세요.
+      window.location.href = `mailto:rsvp@jinnybakery.kr?subject=${subject}&body=${body}`;
+    }
+  </script>
+  <!-- 구조화 데이터: 이벤트 정보 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "지니베이커리 & 글로벌 무역관 오픈식",
+    "startDate": "2025-09-25T15:00:00+09:00",
+    "endDate": "2025-09-30T23:59:00+09:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "지니베이커리 & 글로벌 무역관",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "경기도 안산시 단원구 신길중앙로 3길 18",
+        "addressLocality": "안산시",
+        "addressRegion": "경기도",
+        "postalCode": "",
+        "addressCountry": "KR"
+      }
+    },
+    "image": [
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=1200&auto=format&fit=crop" 
+    ],
+    "description": "오픈식, 다과, 작은 음악회, 교류 간담회로 함께하는 뜻깊은 자리",
+    "organizer": {
+      "@type": "Organization",
+      "name": "지니베이커리",
+      "url": ""
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand" onclick="scrollToId('top')" style="cursor:pointer">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>지니베이커리 오픈식</span>
+      </div>
+      <nav>
+        <a href="#about">초대의 글</a>
+        <a href="#info">행사 안내</a>
+        <a href="#spaces">공간 소개</a>
+        <a href="#program">프로그램</a>
+        <a href="#map">오시는 길</a>
+        <a href="#rsvp" class="pill">참석 신청</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="badge">🍞 베이커리 오픈 & 🌐 글로벌 무역관 개관</span>
+        <h1 class="title">지니베이커리 & 글로벌 무역관 오픈식</h1>
+        <p class="subtitle">2025년 9월 25일(목) 오후 3시 ~ 9월 30일</p>
+        <p class="kicker">경기도 안산시 단원구 신길중앙로 3길 18 · 1층 지니베이커리 · 2층 글로벌 무역관</p>
+        <div class="cta">
+          <button class="btn btn-primary" onclick="scrollToId('rsvp')">참석 신청</button>
+          <button class="btn btn-ghost" onclick="scrollToId('map')">오시는 길</button>
+        </div>
+      </div>
+      <div class="card" aria-label="행사 핵심 정보">
+        <h2 style="margin-top:0">행사 한눈에 보기</h2>
+        <div class="info-list">
+          <div class="info-item">
+            <div class="icon" aria-hidden="true">📅</div>
+            <div>
+              <strong>일시</strong><br/>
+              2025.09.25(목) 15:00 ~ 09.30
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon" aria-hidden="true">📍</div>
+            <div>
+              <strong>장소</strong><br/>
+              안산시 단원구 신길중앙로 3길 18
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon" aria-hidden="true">🎶</div>
+            <div>
+              <strong>내용</strong><br/>
+              오픈식 · 다과 · 작은 음악회 · 교류 간담회
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="about">
+    <div class="container grid-2">
+      <div class="card">
+        <h2>초대의 글</h2>
+        <p class="lead">
+          가을의 문턱에서 보내주신 귀한 성원에 깊이 감사드립니다. 뜻깊은 분들이 함께해 주셨기에 작은 물결이 큰 물결로 이어졌습니다.
+          9월 25일 지니베이커리에서의 만남과 교류가 성장의 발판이 되길 바랍니다.
+          대한민국의 우수제품과 기술이 글로벌 시장에 나아가도록 한뜻으로 함께 하겠습니다.
+        </p>
+      </div>
+      <div class="highlight">
+        <strong>함께 만드는 따뜻한 나눔</strong>
+        <p class="lead" style="margin:8px 0 0">
+          본 행사는 지역기관·단체 및 자선단체와 함께 소외계층을 돕고 나눔을 실천합니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" style="background:var(--cream)">
+    <div class="container">
+      <h2>행사 안내</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>일시</h3>
+          <p>2025년 9월 25일(목) 오후 3시 시작<br/>~ 9월 30일</p>
+        </div>
+        <div class="card">
+          <h3>장소</h3>
+          <p>경기도 안산시 단원구 신길중앙로 3길 18</p>
+        </div>
+        <div class="card">
+          <h3>프로그램</h3>
+          <p>오픈식 · 다과 · 작은 음악회 · 교류 간담회</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="spaces">
+    <div class="container">
+      <h2>공간 소개</h2>
+      <div class="split">
+        <div class="pane">
+          <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=1200&auto=format&fit=crop" alt="따뜻한 분위기의 베이커리" />
+          <div class="pane-body">
+            <h3>1층 지니베이커리</h3>
+            <p>편안한 휴식과 교류의 공간. 따뜻한 다과와 향긋한 커피로 손님을 맞이합니다.</p>
+          </div>
+        </div>
+        <div class="pane">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop" alt="현대적인 비즈니스 공간" />
+          <div class="pane-body">
+            <h3>2층 글로벌 무역관</h3>
+            <p>대한민국 우수제품·기술을 세계로 연결하는 비즈니스 허브로 함께 도약합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" style="background:linear-gradient(180deg,#ffffff,#fff7ec)">
+    <div class="container">
+      <h2>프로그램 하이라이트</h2>
+      <div class="program">
+        <div class="item">
+          <strong>오픈식 & 교류 간담회</strong>
+          <p>참석자 간 네트워킹과 협업을 위한 뜻깊은 시간.</p>
+        </div>
+        <div class="item">
+          <strong>작은 음악회</strong>
+          <p>바이올린, 피아노 등 잔잔한 선율로 더해지는 품격 있는 오프닝.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="container">
+      <h2>오시는 길</h2>
+      <div class="map-wrap">
+        <iframe loading="lazy" allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%82%B0%EC%8B%9C%20%EB%8B%A8%EC%9B%90%EA%B5%AC%20%EC%8B%A0%EA%B8%B8%EC%A4%91%EC%95%99%EB%A1%9C%203%EA%B8%B8%2018&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="rsvp" style="background:var(--cream)">
+    <div class="container">
+      <h2>참석 신청</h2>
+      <div class="grid-2">
+        <div class="card">
+          <form onsubmit="handleRSVP(event)">
+            <div class="grid-2">
+              <div>
+                <label for="name">성함*</label>
+                <input id="name" required placeholder="홍길동" />
+              </div>
+              <div>
+                <label for="org">소속/직함</label>
+                <input id="org" placeholder="지니베이커리 / 대표" />
+              </div>
+            </div>
+            <div class="grid-2">
+              <div>
+                <label for="phone">연락처*</label>
+                <input id="phone" required placeholder="010-0000-0000" />
+              </div>
+              <div>
+                <label for="attend">참석 여부*</label>
+                <select id="attend" required>
+                  <option value="참석">참석</option>
+                  <option value="불참">불참</option>
+                  <option value="미정">미정</option>
+                </select>
+              </div>
+            </div>
+            <div class="grid-2">
+              <div>
+                <label for="count">동반 인원</label>
+                <input id="count" type="number" min="0" value="0" />
+              </div>
+              <div>
+                <label>&nbsp;</label>
+                <button type="submit" class="btn btn-primary" style="width:100%">이메일로 보내기</button>
+              </div>
+            </div>
+            <div>
+              <label for="msg">메시지</label>
+              <textarea id="msg" rows="4" placeholder="전하고 싶은 말씀을 적어주세요"></textarea>
+            </div>
+            <small>※ 제출 버튼은 메일 앱을 열어 <u>blissbio@naver.com</u>로 자동 작성합니다. 주소를 실제 접수용으로 변경하세요.</small>
+          </form>
+        </div>
+        <div class="highlight">
+          <p class="lead"><strong>문의</strong><br/>행사 관련 문의는 아래 연락처로 부탁드립니다.</p>
+          <ul>
+            <li>전화: 010-3008-7005</li>
+            <li>이메일: blissbio@naver.com</li>
+          </ul>
+          <p class="lead" style="margin-top:12px">따뜻한 응원과 진심 어린 참여로 대한민국 기업들의 글로벌 도약에 함께해주세요.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="container foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:10px">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>지니베이커리 & 글로벌 무역관</span>
+        </div>
+        <small>© 2025 JINNY BAKERY. All rights reserved.</small>
+      </div>
+      <div style="text-align:right">
+        <a class="pill" href="#top">맨 위로 ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
